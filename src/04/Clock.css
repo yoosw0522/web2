@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* =========================
+   경기장 전체
+========================= */
+
+.stadium {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image:
+            linear-gradient(
+                    rgba(0, 10, 30, 0.15),
+                    rgba(0, 10, 30, 0.15)
+            ),
+            url("./images/tottenham-stadium.png");
+
+    background-size: cover;
+    background-position: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* =========================
+   메인 전광판
+========================= */
+
+.scoreboard {
+    width: 850px;
+
+    padding: 30px 55px 35px;
+
+    text-align: center;
+
+    background:
+            linear-gradient(
+                    145deg,
+                    rgba(7, 25, 58, 0.96),
+                    rgba(1, 7, 20, 0.97)
+            );
+
+    border: 4px solid #e9f2ff;
+    border-radius: 25px;
+
+    box-shadow:
+            0 0 0 8px #102d61,
+            0 0 0 11px rgba(255, 255, 255, 0.4),
+            0 0 40px #2d7fff,
+            0 35px 70px rgba(0, 0, 0, 0.8);
+}
+
+
+/* =========================
+   EPL / TOTTENHAM
+========================= */
+
+.top-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 18px;
+    margin-bottom: 25px;
+
+    border-bottom: 1px solid rgba(255,255,255,0.45);
+
+    color: white;
+
+    font-size: 16px;
+    font-weight: 900;
+
+    letter-spacing: 4px;
+}
+
+
+/* =========================
+   학과명
+========================= */
+
+.scoreboard h1 {
+    margin: 25px 0;
+
+    color: white;
+
+    font-size: 42px;
+    font-weight: 900;
+
+    letter-spacing: 5px;
+
+    text-shadow:
+            0 0 8px rgba(255,255,255,0.5),
+            0 0 25px rgba(50,130,255,0.5);
+}
+
+
+/* =========================
+   CURRENT TIME
+========================= */
+
+.current-title {
+    margin: 25px 0 16px;
+
+    color: #ffd84d;
+
+    font-size: 18px;
+    font-weight: 900;
+
+    letter-spacing: 8px;
+
+    text-shadow:
+            0 0 7px #ffd84d,
+            0 0 18px rgba(255,205,50,0.7);
+}
+
+
+/* =========================
+   실제 디지털 시계
+========================= */
+
+.digital-clock {
+    padding: 30px;
+
+    background:
+            radial-gradient(
+                    circle,
+                    #092d69,
+                    #010510 75%
+            );
+
+    border: 3px solid #5795e8;
+    border-radius: 15px;
+
+    color: #8ed2ff;
+
+    font-family:
+            "Courier New",
+            monospace;
+
+    font-size: 72px;
+    font-weight: 900;
+
+    letter-spacing: 5px;
+
+    text-shadow:
+            0 0 5px white,
+            0 0 10px #238cff,
+            0 0 25px #238cff,
+            0 0 40px #006eff;
+
+    box-shadow:
+            inset 0 0 35px black,
+            0 0 20px rgba(50,140,255,0.65);
+}
+
+
+/* =========================
+   현재 시각입니다
+========================= */
+
+.current-text {
+    width: 82%;
+
+    margin: 20px auto 0;
+    padding: 14px;
+
+    background:
+            linear-gradient(
+                    180deg,
+                    #ffffff,
+                    #d7e5ff
+            );
+
+    border: 2px solid #80b7ff;
+    border-radius: 9px;
+
+    color: #073782;
+
+    font-size: 21px;
+    font-weight: 900;
+
+    letter-spacing: 5px;
+
+    box-shadow:
+            0 0 15px rgba(80,160,255,0.9);
+}
+
+
+/* =========================
+   COME ON YOU SPURS
+========================= */
+
+.spurs-text {
+    margin-top: 30px;
+
+    color: white;
+
+    font-size: 15px;
+    font-weight: 900;
+
+    letter-spacing: 9px;
+
+    text-shadow:
+            0 0 10px #4d98ff,
+            0 0 20px #4d98ff;
+}
