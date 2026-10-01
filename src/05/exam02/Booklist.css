@@ -19,16 +19,10 @@ body {
 .bookListWrapper {
 
     display: grid;
-
-    grid-template-columns: repeat(3, 1fr);
-
-    gap: 30px;
+    grid-template-columns: repeat(3, 235px);
+    gap: 20px;
 
     padding: 16px;
-
-    max-width: 900px;
-
-    /* margin: 0 auto; (body에서 정렬해주므로 지워도 되고 남겨둬도 무방) 가로 방향만 가운데 정렬*/
 
 }
 

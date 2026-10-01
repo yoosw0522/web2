@@ -1,12 +1,12 @@
 import React from "react";
-import "./Book.css"
+import "./Book.css";
 
-function Book(props){
+function Book(props) {
     return(
-        <div>
+        <div className={"wrapper"}>
             <div>
                 <img
-                    classname = {"image"}
+                    className={"image"}
                     src={props.coverImage}
                     alt={`${props.title} book cover`}
                 />
@@ -18,5 +18,4 @@ function Book(props){
         </div>
     );
 }
-
 export default Book;
